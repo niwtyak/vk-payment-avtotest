@@ -8,7 +8,7 @@ class MainKtTest {
     fun calculateFee_default() {
         val amount = 10000000
 
-        assertEquals(0.0,calculateFee(amount = amount),0.0)
+        assertEquals(10.0,calculateFee(amount = amount),0.0)
     }
 
 
